@@ -2,8 +2,8 @@ regions=( eu-central-1 us-east-1 us-east-2 us-west-1 us-west-2 af-south-1 ap-eas
 for region in "${regions[@]}"
 do : 
     echo $region
-    aws s3 cp --region=$region out/remotion-layer-chromium-v1.zip s3://lambda-remotion-binaries-$region/remotion-layer-chromium-v1.zip
-    aws s3 cp --region=$region out/remotion-layer-ffmpeg-v1.zip s3://lambda-remotion-binaries-$region/remotion-layer-ffmpeg-v1.zip
-    aws s3 cp --region=$region out/remotion-layer-remotion-v1.zip s3://lambda-remotion-binaries-$region/remotion-layer-remotion-v1.zip
+    aws s3 cp --region=$region out/remotion-layer-chromium-v1.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v1.zip
+    aws s3 cp --region=$region out/remotion-layer-ffmpeg-v1.zip s3://remotionlambda-binaries-$region/remotion-layer-ffmpeg-v1.zip
+    aws s3 cp --region=$region out/remotion-layer-remotion-v1.zip s3://remotionlambda-binaries-$region/remotion-layer-remotion-v1.zip
 done
 
