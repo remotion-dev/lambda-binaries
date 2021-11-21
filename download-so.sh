@@ -1,14 +1,12 @@
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libm.so.6 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libfreetype.so.6 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libbz2.so.1 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libz.so.1 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libpthread.so.0 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libdl.so.2 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libstdc++.so.6 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/librt.so.1 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libc.so.6 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/ld-linux-x86-64.so.2 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libpng15.so.15 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:/lib64/libgcc_s.so.1 all
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:~/bin/ffmpeg ffmpeg/bin
-scp -r -i ~/Downloads/testkeypaircandelete\ \(1\).pem ec2-user@ec2-18-233-0-55.compute-1.amazonaws.com:~/bin/ffprobe ffmpeg/bin
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:~/ffmpeg_sources/ffmpeg/ffmpeg ffmpeg/bin/ffmpeg
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:~/ffmpeg_sources/ffmpeg/ffprobe ffmpeg/bin/ffprobe
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libc.so.6 all/libc.so.6
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libfreetype.so.6 all/libfreetype.so.6
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libbz2.so.1 all/libbz2.so.1
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libz.so.1 all/libz.so.1
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libpthread.so.0 all/libpthread.so.0
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libdl.so.2 all/libdl.so.2
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libstdc++.so.6 all/libstdc++.so.6
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libc.so.6 all/libc.so.6
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libc.so.6 all/libc.so.6
+scp -r -i ~/Downloads/lambdatesting.pem ec2-user@ec2-3-83-122-107.compute-1.amazonaws.com:/lib64/libgcc_s.so.1 all/libgcc_s.so.1
