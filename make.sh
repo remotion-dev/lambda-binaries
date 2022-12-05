@@ -13,11 +13,11 @@ cd ..
 
 mkdir -p out
 
-mv chromium/chromium.zip out/remotion-layer-chromium-v8-arm64.zip
-mv chromium-x64/chromium-x64.zip out/remotion-layer-chromium-v8-x86_64.zip
+mv chromium/chromium.zip out/remotion-layer-chromium-v9-arm64.zip
+mv chromium-x64/chromium-x64.zip out/remotion-layer-chromium-v9-x86_64.zip
 
-mv ffmpeg/ffmpeg.zip out/remotion-layer-ffmpeg-v8-arm64.zip
-mv ffmpeg-x64/ffmpeg-x64.zip out/remotion-layer-ffmpeg-v8-x86_64.zip
+mv ffmpeg/ffmpeg.zip out/remotion-layer-ffmpeg-v9-arm64.zip
+mv ffmpeg-x64/ffmpeg-x64.zip out/remotion-layer-ffmpeg-v9-x86_64.zip
 
-mv fonts/fonts.zip out/remotion-layer-fonts-v8-arm64.zip
-mv fonts-x64/fonts-x64.zip out/remotion-layer-fonts-v8-x86_64.zip
+mv fonts/fonts.zip out/remotion-layer-fonts-v9-arm64.zip
+mv fonts-x64/fonts-x64.zip out/remotion-layer-fonts-v9-x86_64.zip
