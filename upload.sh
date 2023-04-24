@@ -3,9 +3,7 @@ for region in "${regions[@]}"
 do : 
     echo $region
     aws s3 cp --region=$region out/remotion-layer-chromium-v10-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v10-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-chromium-v10-x86_64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v10-x86_64.zip
     
     aws s3 cp --region=$region out/remotion-layer-fonts-v10-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-fonts-v10-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-fonts-v10-x86_64.zip s3://remotionlambda-binaries-$region/remotion-layer-fonts-v10-x86_64.zip
 done
 
