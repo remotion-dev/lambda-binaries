@@ -2,13 +2,8 @@ regions=( 'eu-central-1' 'eu-west-1' 'eu-west-2' 'eu-west-3' 'eu-south-1' 'eu-no
 for region in "${regions[@]}"
 do : 
     echo $region
-    aws s3 cp --region=$region out/remotion-layer-chromium-v9-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v9-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-chromium-v9-x86_64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v9-x86_64.zip
-
-    aws s3 cp --region=$region out/remotion-layer-ffmpeg-v9-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-ffmpeg-v9-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-ffmpeg-v9-x86_64.zip s3://remotionlambda-binaries-$region/remotion-layer-ffmpeg-v9-x86_64.zip
-    
-    aws s3 cp --region=$region out/remotion-layer-fonts-v9-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-fonts-v9-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-fonts-v9-x86_64.zip s3://remotionlambda-binaries-$region/remotion-layer-fonts-v9-x86_64.zip
+    aws s3 cp --region=$region out/remotion-layer-chromium-v10-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v10-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-fonts-v10-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-fonts-v10-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-ffmpeg-v10-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-ffmpeg-v10-arm64.zip
 done
 
