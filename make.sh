@@ -5,5 +5,5 @@ cd ..
 
 mkdir -p out
 
-mv chromium/chromium.zip out/remotion-layer-chromium-v10-arm64.zip
-mv fonts/fonts.zip out/remotion-layer-fonts-v10-arm64.zip
+mv chromium/chromium.zip out/remotion-layer-chromium-v11-arm64.zip
+mv fonts/fonts.zip out/remotion-layer-fonts-v11-arm64.zip
