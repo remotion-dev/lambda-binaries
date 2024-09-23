@@ -2,7 +2,10 @@ regions=( 'eu-central-1' 'eu-west-1' 'eu-west-2' 'eu-west-3' 'eu-south-1' 'eu-no
 for region in "${regions[@]}"
 do : 
     echo $region
-    aws s3 cp --region=$region out/remotion-layer-chromium-v11-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v11-arm64.zip
+    # aws s3 cp --region=$region out/remotion-layer-chromium-v11-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v11-arm64.zip
     aws s3 cp --region=$region out/remotion-layer-fonts-v11-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-fonts-v11-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-emoji-apple-v11-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-emoji-apple-v11-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-emoji-google-v11-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-emoji-google-v11-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-cjk-v11-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-cjk-v11-arm64.zip
 done
 
