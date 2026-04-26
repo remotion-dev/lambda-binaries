@@ -7,10 +7,10 @@ fi
 for region in "${regions[@]}"
 do : 
     echo $region
-    aws s3 cp --region=$region out/remotion-layer-chromium-v16-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v16-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-fonts-v16-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-fonts-v16-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-emoji-apple-v16-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-emoji-apple-v16-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-emoji-google-v16-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-emoji-google-v16-arm64.zip
-    aws s3 cp --region=$region out/remotion-layer-cjk-v16-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-cjk-v16-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-chromium-v17-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-chromium-v17-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-fonts-v17-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-fonts-v17-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-emoji-apple-v17-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-emoji-apple-v17-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-emoji-google-v17-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-emoji-google-v17-arm64.zip
+    aws s3 cp --region=$region out/remotion-layer-cjk-v17-arm64.zip s3://remotionlambda-binaries-$region/remotion-layer-cjk-v17-arm64.zip
 done
 
