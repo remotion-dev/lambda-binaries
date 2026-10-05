@@ -11,8 +11,8 @@ cd ..
 
 mkdir -p out
 
-mv chromium/chromium.zip out/remotion-layer-chromium-v23-arm64.zip
-mv fonts/fonts.zip out/remotion-layer-fonts-v23-arm64.zip
-mv emoji-apple/emoji-apple.zip out/remotion-layer-emoji-apple-v23-arm64.zip
-mv emoji-google/emoji-google.zip out/remotion-layer-emoji-google-v23-arm64.zip
-mv cjk/cjk.zip out/remotion-layer-cjk-v23-arm64.zip
+mv chromium/chromium.zip out/remotion-layer-chromium-v24-arm64.zip
+mv fonts/fonts.zip out/remotion-layer-fonts-v24-arm64.zip
+mv emoji-apple/emoji-apple.zip out/remotion-layer-emoji-apple-v24-arm64.zip
+mv emoji-google/emoji-google.zip out/remotion-layer-emoji-google-v24-arm64.zip
+mv cjk/cjk.zip out/remotion-layer-cjk-v24-arm64.zip
